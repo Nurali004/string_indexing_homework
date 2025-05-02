@@ -6,4 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if 0<=n<=len(s):
+        return s[n]
+    else:
+        return false
+
+n=int(input("sonni kriting:"))
+s="dsnjfdjhererb"
+print(main(s,n))
