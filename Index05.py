@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return len(s)
+
+s="fnfnjener"
+print(main(s))
